@@ -2,14 +2,38 @@
 
 *{
     font-family: "Merriweather";
+    text-align: justify;
+}
+
+h4{
+    padding-top: 5%;
+    padding-left: 30%;
+    color: #304847 !important;
+    text-shadow: 1px 1px 2px #6A93AF, 0 0 1em white;
 }
 
 p{
     text-indent: 20px;
 }
 
-h3, h2{
+.plan{
+    color: #1B8C30; 
+    text-align: center;
+}
+
+h2{
     margin: 10%;   
+}
+
+.table{
+    color: #6F6E6D;
+    width: 85% !important;
+    text-align: left;
+    border-bottom: 3px;
+}
+
+thead{
+    color: white !important;
 }
 
 .picture_theme_company{
@@ -22,6 +46,30 @@ h3, h2{
     background-size: cover;
 }
 
+.picture_theme_strategy{
+    background-image: url(les.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    text-align: center;
+    vertical-align: 10%;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-size: cover;
+}
+
+.table_theme_name{
+    color: #6F6E6D;
+    text-align: left;
+}
+
+#page{
+    background-color: #ffffff;
+    margin-top:100px;
+    border-radius: 10px;
+}
+
 li a:hover{
     background: rgb(102, 175, 218);
     padding: 10px 0 10px 20px;
@@ -29,11 +77,42 @@ li a:hover{
 
 .nav-item{
     position: relative;
-} 
+}
 
 img {
     z-index: -1;
     top:0;
     left:0; 
     min-width:100%;
+}
+
+/* .headhesive{
+    position: fixed;
+    width: 100%; 
+    transform: translateY(-100%); 
+    transform: translate(-100%); 
+    transition: 0.5s;
+}
+
+.headhesive--stick{
+    transform: translate(0);
+} */
+
+thead{
+    background-color: #7BC8C9;
+}
+
+.line{
+    border-color: #1B8C30;
+    border-width: 2px;
+    width: 90%;
+}
+
+.color{
+    color: #1B8C30;
+}
+
+th{
+    text-align: left !important;
+    vertical-align: middle !important;
 }
